@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+
+/*** FOOD,LLC ****/
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: green;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-bottom: 0;
+  margin-left: 10px;
+/*  margin-right: auto;
+  text-align: left;*/
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0.5px;
+  position: relative;
+  background: green;
+}
+#nav-list a {
+  color: black;
+/*  font-weight: bold;*/
+  text-align: center;
+
+}
+#nav-list a:hover {
+  background: blue;
+  text-decoration: none;
+}
+
+/** BUTTON FOR DROPDOWN MENU**/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#collapsable-nav a {
+  font-size: 1.2em;
+  top-margin: -200px;
+}
+.text-center{
+  color: black;
+  text-transform: uppercase;
+}
+#text{
+text-align: justify;
+}
+
+#chicken{
+  color: black;
+  padding: auto;
+  margin: 40px;
+  marigin-top:40px;
+  border: solid;
+  background: lightgrey;
+}
+#beef{
+  color: black;
+  padding: auto;
+  margin: 40px;
+  marigin-top:40px;
+  border: solid;
+    background: lightgrey;
+}
+#sushi{
+  color: black;
+  padding: auto;
+  margin: 40px;
+  marigin-top:40px;
+  border: solid;
+    background: lightgrey;
+}
+.container.col-md-12{
+  position: relative;
+}
+/* END HEADER */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
